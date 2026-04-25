@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Tablo İşlemleri
+    </title>
+</head>
+
+<Body>
+    <center>
+        <header>
+            <h2>Tablo İşlemleri</h2>
+        </header>
+    </center>
+
+    <!--Tablo Oluşturma-->
+    <!--Table Row -> tr, table Date - table data cell -> td-->
+    <table border="3">
+        <tr>
+            <td>Kullanıcı ID</td>
+            <td> Adı</td>
+            <td> Soyadı</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Serpil</td>
+            <td>Hangül</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mehmet</td>
+            <td>Nurekşi</td>
+        </tr>
+        <tr></tr>
+    </table>
+    <hr>
+
+    <table border="2">
+        <caption>Ülke Bilgileri</caption>
+        <thead>
+            <tr>
+                <td>Ülke Adı </td>
+                <td>Nufüsu</td>
+                <td>Kişi Başı Yıllık Milli Hasıla</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Kanada</td>
+                <td>41 Milyon</td>
+                <td> 54.200 $</td>
+            </tr>
+            <tr>
+                <td>Japonya</td>
+                <td>124 Milyon</td>
+                <td>37.145 $</td>
+            </tr>
+            <tr>
+                <td>Brezilya</td>
+                <td>216 Milyon</td>
+                <td>11.423 $</td>
+            </tr>
+            <tr>
+                <td>Hindistan</td>
+                <td>1,44 Milyar</td>
+                <td>3.210 $</td>
+            </tr>
+            <tr>
+                <td>İsviçre</td>
+                <td> 8,9 Milyon</td>
+                <td>100.000 $</td>
+            </tr>
+        </tbody>
+
+        <!--Rowspan ve colspan: tablodaki satır ve sütunları birleştirmek için kullanılır-->
+        <tfoot>
+            <td colspan="3">Toplam Nüfus: 1 milyar 830 milyon</td>
+        </tfoot>
+    </table>
+
+    <!--Sonrası ise css de şekillendirmekten geçiyor.-->
+</Body>
+
+</html>
